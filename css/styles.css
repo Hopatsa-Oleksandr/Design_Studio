@@ -81,7 +81,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  max-width: 1600px;
+  /* max-width: 1600px; */
 }
 
 /* основной контейнер */
