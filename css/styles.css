@@ -22,6 +22,9 @@
   --activity: rgba(47, 48, 58, 0.8);
   --portfolio-footer: rgba(33, 150, 243, 0.9);
 }
+body {
+  background-color: teal;
+}
 /* контентные изображения */
 img {
   display: block;
@@ -105,8 +108,9 @@ img {
 
 /* шапка и подвал */
 .footer {
-  background-color: var(--header-footer);
-  max-width: 1600px;
+  /* background-color: var(--header-footer); */
+  background-color: teal;
+  /* max-width: 1600px; */
 }
 /* .primary */
 /* паддинги секций */
@@ -128,7 +132,7 @@ img {
 }
 
 .background {
-  max-width: 1600px;
+  /* max-width: 1600px; */
   margin: 0px auto;
   padding: 200px 0px;
   height: 600px;
@@ -310,7 +314,7 @@ img {
 
 /* Наша команда */
 .team {
-  background-color: var(--second);
+  background-color: teal;
 }
 .team > .container > .title {
   margin-bottom: 50px;
